@@ -1,0 +1,472 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    text-decoration: none!important;
+    list-style: none!important;
+}
+.mb{
+    margin: 0!important;
+    padding: 0!important;
+}
+.text-dan{
+    color: #ce1212!important;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.ps-menu{
+    padding-left: 32px;
+}
+.bg-dan{
+    background-color: #1f1f24;
+}
+.cor-poi{
+    cursor: pointer;
+}
+.drop:hover .dropdown-menu{
+    display: block!important;
+}
+.top-32{
+    top: 32px;
+}
+.dropdown-item:hover{
+
+    background-color:darkslategray!important;
+    color: #ce1212!important;
+}
+#main-banner {
+    padding: 0; /* Removes unnecessary padding */
+}
+
+#main-banner .row {
+    margin: 0; /* Ensures no extra margin around the row */
+}
+
+#main-banner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto; /* Centers the image properly */
+}
+
+@media (max-width: 991px) {
+    #main-banner .row {
+        flex-direction: column-reverse; /* Ensures image and text stack properly */
+    }
+}
+
+.fs-10{
+    font-size: 10px;
+}
+.top-n2{
+    top: -2px;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.mp{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.mh-100{
+    max-height: 100%;
+}
+.font-amatic{
+  font-family: 'Amatic SC', cursive;
+}
+.lh-bn-ti{
+    line-height: 1.5;
+}
+.fs-16{
+    font-size: 16px;
+}
+.align-sub{
+    vertical-align: sub;
+}
+.Watch-vedio:hover{
+    color: #ce1212!important;
+}
+.py-62{
+    padding: 45px 0px;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.fs-35{
+    font-size: 35px!important;
+}
+.z-index-n1{
+    z-index: -1;
+}
+.content ul li{
+    padding: 0 0 8px 26px;
+    /* list-style-position: outside; */
+}
+.content ul li::before{
+    content: "\f560";
+    font: var(--fa-font-solid);
+    color: #ce1212;
+    position: relative;
+    left: -23px;
+    z-index: -1;
+    left: 0px;
+    top: 7px;
+    position: absolute;
+}
+/* .content ul{
+    list-style-position: outside!important;
+} */
+
+.box{
+    height: 115px;
+    width: 75%;
+    background-color: #fff;
+    bottom: 68px;
+    /* left: 81px; */
+}
+.text-justify{
+    text-align: justify;
+}
+.row .col-xl-7 .img{
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg);
+    width: 100%;
+    height: 100%;
+}
+.top-46{
+    top: 46%!important;
+}
+
+.content .img-2 span a i{
+    background-color: #ce1212;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+}
+
+.bg-lightt{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.row .col-xl-4 .card a:hover{
+    background-color: #fff;
+    color: #ce1212!important;
+}
+
+.row .small-card{
+    background-color: #fff;
+    height: 400px;
+    /* overflow: hidden; */
+    transition: all 0.5s;
+
+}
+.row .small-card:hover{
+    transform: scale(1.1);
+}
+
+.small-card i{
+    background: rgba(206, 18, 18, 0.1);
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+}
+
+.py-75{
+    padding:75px 0!important;
+}
+
+.calculate{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg");
+    height: 350px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.calculate::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.z-index-sticky{
+    z-index: 1020;
+}
+.z-index-1{
+    z-index: 1;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fs-45{
+    font-size: 45px !important;
+}
+.py-100{
+    padding: 100px 0;
+}
+.fs-20{
+    font-size: 20px!important;
+}
+
+.Moments .img{
+    width: 100%;
+    height: 682px;
+    position: relative;
+    
+}
+.Moments .img::before{
+    content: "";
+    background-color: rgba(0,0,0,50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.Moments .img-1{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-1.jpg");
+    background-position: center;
+}
+.Moments .img-2{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-2.jpg");
+    background-position: center;
+}
+.Moments .img-3{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-3.jpg");
+    background-position: center;
+}
+  
+.text-white-90{
+    color: rgba(255,255,255,0.9);
+}
+
+.fs-25{
+    font-size: 25px!important;
+}
+
+.w-100 .Moments .events-data .price::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ce1212;
+}
+.pb-8{
+    padding-bottom: 8rem!important;
+}
+.pt-75{
+    padding-top: 75px!important;
+}
+.pb-40{
+    padding-bottom: 40px!important;
+}
+.op-50{
+    opacity: 50%;
+}
+.pb-75{
+    padding-bottom: 75px!important;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+
+.row .cheaf{
+    transition: all 0.5s;
+}
+.row .cheaf:hover{
+    transform: scale(1.1);
+}
+.bottom-n1{
+    bottom: -1px!important;
+}
+
+input{
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #dee2e6;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 125px;
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+    width: 100%;
+}
+.px-30{
+    padding: 0 30px;
+}
+
+.contact-us .our-contact  i{
+     background-color: #ce1212;
+     color: #fff;
+     height: 60px;
+     width: 60px;
+     line-height: 60px;
+     border-radius: 50%;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+.p-40{
+    padding: 40px;
+}
+
+
+.bg-footer{
+    background-color: #1f1f24;
+}
+.social-footer ul li a{
+    height: 40px;
+    width: 40px;
+    /* display: block; */
+    /* border: 1px solid #eee; */
+    /* text-align: center; */
+    line-height: 40px;
+    /* border-radius: 50%; */
+}
+.social-border-color{
+    border-color: rgba(255,255,255,.5)!important;
+}
+
+
+
+@media (max-width:1400px) {
+    .row .col-xl-8 span{
+        display: none;
+    }
+
+}
+/* @media (min-width:1200px)and(max-width:1200px){
+   
+
+} */
+@media (max-width:1200px) {
+    .row .col-xl-8 ul{
+        display: none!important;
+    }
+    .row .col-xl-8 span{
+        display: block;
+    }
+    .row .menu{
+        order: 2;
+        text-align: end;
+    }
+    .row .button{
+        order: 1;
+        text-align: center!important;
+    }
+    .row .small-card:hover {
+        transform: scale(1);
+    }
+    
+
+}
+
+@media (max-width:992px) {
+    .row .menu{
+        text-align: end!important;
+    }
+    .row .small-card {
+        height: auto;
+    }
+    .calculate {
+        height: 475px;
+    }
+    
+}
+@media (992px > width > 280px){
+    .row .cheaf:hover {
+        transform: scale(1);
+    }
+    
+}
+
+@media (max-width:768px) {
+    .row .button{
+        text-align: end!important;
+    }
+    .calculate {
+        height: 745px;
+    }
+    
+}
+@media (max-width:576px) {
+    .row .button{
+        text-align: end!important;
+    }
+}
+@media (max-width:400px){
+    .button-2 a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:320px) and (min-width:280px){
+    .row .col-xl-2 .btn{
+        font-size: 12px !important;
+    }
+}
+
+/* @media (320px > width > 280px){
+    .row .col-xl-2 a{
+        font-size: 12px !important;
+    }
+} */
+
+
+@media (max-width: 768px) {
+    .menu img {
+        max-width: 80%;
+        padding: 0;
+    }
+
+    .menu ul {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .menu ul li {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu img {
+        max-width: 100%;
+    }
+
+    .menu h4 {
+        font-size: 18px;
+    }
+
+    .menu p {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
